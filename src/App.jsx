@@ -14,6 +14,10 @@ function App() {
     <button class="btn-primary">
         Hola
     </button>
+  
+    <button class="btn-primary">
+        Adios
+    </button>
 <small>
     que gracioso escribir como en undertale
 </small>
