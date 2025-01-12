@@ -1,26 +1,44 @@
+import panel from ".//BattlePanel.png"
+import crix from "./CrixSans.png"
 
 function App() {
 
   return (
-    <>
-<body>
-    <h1>Hola Soy Crix</h1>
-    esto esta bien verga jajaja FGRDSGS
-    <h2>fwasdwasdwasd</h2>
-    <h3>wasdwad</h3>
-    <h4>wasdwasd</h4>
-    <h5>wasdwasd</h5>
-    <h6>wasdwasd</h6>
-    <button class="btn-primary">
+    <div className="bg-black" >
+
+      {/*HERO*/}    
+    
+      <div className="flex p-3 bg-black space-x-3 h-[500px]">
+
+        
+          <img className="w-1/2 h-full" src={panel} alt="" />
+          
+          <div className="flex justify-center bg-transparent w-1/2 h-full" >
+          <img className="w-96 h-full" src={crix} alt="" />
+          
+          </div>
+          
+          <img className="scale-x-[-1] w-1/2 h-full " src={panel} alt="" />
+          
+      </div>
+
+      
+      {/*HERO*/}    
+         
+      <div className="bg-Black h-72 border-[14px] " >
+      
+      <h1 className="text-start text-4xl">Hola Soy Crix</h1>
+     
+      </div>
+
+      <div className="h-2 py-28">
+
+      </div>
+      <button class="btn-primary">
         Hola
     </button>
-<small>
-    que gracioso escribir como en undertale
-</small>
-    
-</body>
 
-    </>
+    </div>
   )
 }
 
