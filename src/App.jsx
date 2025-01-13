@@ -57,7 +57,7 @@ function App() {
       <button
        onClick={handleNext}
        disabled={currentIndex === Text.length - 1}
-      className=" px-2 py-2 bg-black text-white border-[5px] hover:border-[#ffff00] hover:text-[#ffff00] antialiased hover:cursor-Corazon">
+      className=" px-2 py-2 bg-black text-white border-[5px] hover:border-[#ffff00] hover:text-[#ffff00] antialiased hover:cursor-CorazonH">
         SIGUIENTE
       </button>
   

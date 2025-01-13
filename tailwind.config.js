@@ -11,7 +11,7 @@ export default {
     },
     cursor: {
       'Corazon': 'url(Corazon.cur), pointer',
-      'CrixP': 'url(crixP.cur), pointer'
+      'CorazonH': 'url(Corazonh.cur), pointer'
     },  
     extend: {},
   },
