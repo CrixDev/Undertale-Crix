@@ -1,11 +1,11 @@
-
-@font-face { font-family: '8bitOperatorPlus-Regular'; src: url("https://undertale.com/assets/fonts/8bitOperatorPlus-Regular.eot?#iefix") format("embedded-opentype"), url("https://undertale.com/assets/fonts/8bitOperatorPlus-Regular.woff") format("woff"), url("https://undertale.com/assets/fonts/8bitOperatorPlus-Regular.ttf") format("truetype"), url("https://undertale.com/assets/fonts/8bitOperatorPlus-Regular.svg#8bitOperatorPlus-Regular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face {
+  font-family: '8bitOperatorPlus-Regular';
+  src: url("./fonts/PixelOperator8.ttf");
+}
 
 @font-face {
   font-family: '8bitOperatorPlus-Bold';
-  src: url('https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.eot?#iefix') format('embedded-opentype'),  url('https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.woff') format('woff'), url('https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.ttf')  format('truetype'), url('https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.svg#8bitOperatorPlus-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  src: url("./fonts/PixelOperator8-Bold.ttf"); 
 }
 
 @tailwind base;
@@ -15,7 +15,7 @@
 
 body{
   background:#000;
-  font-family:"8bitOperatorPlus-Bold";
+    font-family:'8bitOperatorPlus-Bold';
   color:#fff;
   padding:15px;}
   
